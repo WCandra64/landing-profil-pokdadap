@@ -27,17 +27,18 @@
     <meta name="twitter:creator" content="@themesberg" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="title-logo.svg">
     <link rel="icon" type="image/x-icon" href="/images/title-logo.svg">
     <!-- <link rel="icon" type="image/svg" sizes="16x16" href="/images/logo.svg"> -->
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="./output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
-    <header class="fixed w-full">
+    <header class="fixed w-full" style="--app-shell-header-z-index: 100;">
         <nav class="bg-lime-100 border-gray-200 py-2.5">
             <div class="flex flex-wrap items-center justify-center lg:justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" class="flex">
@@ -168,7 +169,7 @@
                     <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
                 </svg> 
                 <blockquote>
-                    <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Assalamualaikum Warohmatullahi Wabarakatuh. Website ini hadir dengan tujuan untuk dapat memperkenalkan Dusun Pokdadap kepada masyarakat luas dengan memanfaatkan teknologi informasi dan komunikasi. Dengan memanfaatkan teknologi digital, diharapkan lebih banyak orang bisa mengenal Dusun Pokdadap serta meningkatkan potensi dan kesejahteraan dusun ini."</p>
+                    <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Website ini hadir dengan tujuan untuk dapat memperkenalkan Dusun Pokdadap kepada masyarakat luas dengan memanfaatkan teknologi informasi dan komunikasi. Dengan memanfaatkan teknologi digital, diharapkan lebih banyak orang bisa mengenal Dusun Pokdadap serta meningkatkan potensi dan kesejahteraan dusun ini."</p>
                 </blockquote>
                 <figcaption class="flex items-center justify-center mt-6 space-x-3">
                     <!-- <img class="w-6 h-6 rounded-full " src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"> -->
@@ -469,24 +470,36 @@
                 <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Daftar usaha yang ada di Dusun Pokdadap</h2>
             </div>
             <div class="space-y-8 mt-6 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <a href="https://maps.app.goo.gl/BB3FKE3V9kVcRo7s7" target="_blank" class="flex flex-col max-w-lg p-6 mx-auto text-left text-gray-900 bg-white border border-gray-100 rounded-lg shadow xl:p-8 hover:border-lime-700 hover:shadow-none hover:title-lime-700">
+                    <!-- <img class="rounded-t-lg max-h-36 object-fill" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" /> -->
+                    <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M209.875 44.156l-182 106.47 119.625 54.31 148.344 11.72 41.97-24.312 17.342 11.562L309 230.656V379.53l53.563-14.624-64.625 51.97-110.875-59.626-2.157-1.53-71.28 6.56 75.936-31.967 100.75 52.125v-147.5l-145.906-11.5-1.625-.125-1.5-.688-121.093-55V391.47L44 423.186l82 20.97 21.875-21.282 11.156 29.72 131.282 33.592V434l4.25 2.28 5.47 2.94 4.812-3.908L309 431.97v52.155L491.375 377.78v-96.405L466.78 269.47l24.595-38.75V125l-90.25 52.28-1.094 34.095-88-58.688 84.97 5.375L476.5 112 291.562 64.937l1.625.563-64.406 5.78 5.345-20.936-24.25-6.188z"></path></g></svg>
+                    <div class="p-5">
+                        <h5 class="mb-4 text-2xl font-semibold umkm-title">Tiga Putra Stone</h5>
+                        <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Pengrajin Batu</p>
+                    </div>
+                </a>
+                <a href="https://maps.app.goo.gl/TJLTm2px91ec2dGAA" target="_blank" class="flex flex-col max-w-lg p-6 mx-auto text-left text-gray-900 bg-white border border-gray-100 rounded-lg shadow xl:p-8 hover:border-lime-700 hover:shadow-none hover:title-lime-700">
+                    <!-- <img class="rounded-t-lg max-h-36 object-fill" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" /> -->
+                    <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 0 50 50" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" overflow="inherit"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6 11v33.74c0 1.47 1.237 3.26 2.76 3.26h33.218c1.519 0 3.022-1.79 3.022-3.26v-33.74h-39zm19.46 26.776c-5.86 0-10.611-4.594-10.611-10.263s4.751-10.263 10.611-10.263 10.611 4.594 10.611 10.263c0 5.67-4.751 10.263-10.611 10.263zm16.518-36.776h-33.218c-1.523 0-2.76 1.033-2.76 2.505v5.495h39v-5.495c0-1.472-1.503-2.505-3.022-2.505zm-22.978 6h-11v-4h11v4zm19.146-.28c-1.249 0-2.258-.979-2.258-2.188 0-1.207 1.009-2.186 2.258-2.186s2.261.979 2.261 2.186c-.001 1.208-1.012 2.188-2.261 2.188z"></path></g></svg>
+                    <div class="p-5">
+                        <h5 class="mb-4 text-2xl font-semibold umkm-title">Bayu Laundry</h5>
+                        <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Tempat Laundry Pakaian</p>
+                    </div>
+                </a>
+                <a href="https://maps.app.goo.gl/GYSsHJVeAoazjMgU6" target="_blank" class="flex flex-col max-w-lg p-6 mx-auto text-left text-gray-900 bg-white border border-gray-100 rounded-lg shadow xl:p-8 hover:border-lime-700 hover:shadow-none hover:title-lime-700">
+                    <!-- <img class="rounded-t-lg max-h-36 object-fill" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" /> -->
+                    <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 -3.84 122.88 122.88" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 122.88 115.21" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M29.03,100.46l20.79-25.21l9.51,12.13L41,110.69C33.98,119.61,20.99,110.21,29.03,100.46L29.03,100.46z M53.31,43.05 c1.98-6.46,1.07-11.98-6.37-20.18L28.76,1c-2.58-3.03-8.66,1.42-6.12,5.09L37.18,24c2.75,3.34-2.36,7.76-5.2,4.32L16.94,9.8 c-2.8-3.21-8.59,1.03-5.66,4.7c4.24,5.1,10.8,13.43,15.04,18.53c2.94,2.99-1.53,7.42-4.43,3.69L6.96,18.32 c-2.19-2.38-5.77-0.9-6.72,1.88c-1.02,2.97,1.49,5.14,3.2,7.34L20.1,49.06c5.17,5.99,10.95,9.54,17.67,7.53 c1.03-0.31,2.29-0.94,3.64-1.77l44.76,57.78c2.41,3.11,7.06,3.44,10.08,0.93l0.69-0.57c3.4-2.83,3.95-8,1.04-11.34L50.58,47.16 C51.96,45.62,52.97,44.16,53.31,43.05L53.31,43.05z M65.98,55.65l7.37-8.94C63.87,23.21,99-8.11,116.03,6.29 C136.72,23.8,105.97,66,84.36,55.57l-8.73,11.09L65.98,55.65L65.98,55.65z"></path> </g> </g></svg>
+                    <div class="p-5">
+                        <h5 class="mb-4 text-2xl font-semibold umkm-title">Sego Berkat Raihan</h5>
+                        <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Warung Makan Sego Berkat</p>
+                    </div>
+                </a>
                 <!-- Pricing Card -->
-                <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                    <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
-                    <h3 class="mb-4 text-2xl font-semibold">Kuliner</h3>
-                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Terdapat beberapa penduduk yang membuat serta menjual makanan baik dengan membuka warung makan ataupun menjual makanan ringan seperti risol, gorengan, dan yang lainnya.</p>
-                </div>
-                <!-- Pricing Card -->
-                <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                    <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
-                    <h3 class="mb-4 text-2xl font-semibold">Wirausaha</h3>
-                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ada juga penduduk yang berwirausaha dengan membuka toko kelontong, bengkel, dan juga laundry di area rumah mereka.</p>
-                </div>
-                <!-- Pricing Card -->
-                <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <!-- <a href="#" class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                     <svg class="w-12 h-12 mb-2 text-lime-700 md:w-16 md:h-16 dark:text-lime-700 mx-auto" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
                     <h3 class="mb-4 text-2xl font-semibold">Jathilan</h3>
                     <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Dusun Pokdadap masih menjaga budaya kesenian dengan memiliki kelompok jathilan yang bernama Jathilan ...</p>
-                </div>
+                </a> -->
             </div>
         </div>
       </section>
@@ -539,7 +552,7 @@
       </section> -->
     <!-- End block -->
     <!-- Start block -->
-    <section class="bg-white dark:bg-gray-900">
+    <!-- <section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
             <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
             <div class="max-w-screen-md mx-auto">
@@ -605,21 +618,48 @@
                 </div> 
             </div>               
         </div>
-    </section>
+    </section> -->
     <!-- End block -->
-    <!-- Start block -->
-    <section class="bg-gray-50 dark:bg-gray-800">
+    <!-- Galeri block -->
+    <section class="bg-gray-50 dark:bg-gray-800" id="galeri">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto text-center">
-                <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start your free trial today</h2>
-                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Landwind Platform for 30 days. No credit card required.</p>
-                <a href="#" class="text-white bg-lime-700 hover:bg-lime-700 focus:ring-4 focus:ring-lime-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-lime-700 dark:hover:bg-lime-700 focus:outline-none dark:focus:ring-lime-700">Free trial for 30 days</a>
+                <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Galeri</h2>
+                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Kumpulan beberapa foto kegiatan yang direkam di Dusun Pokdadap.</p>
+                <!-- <a href="#" class="text-white bg-lime-700 hover:bg-lime-700 focus:ring-4 focus:ring-lime-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-lime-700 dark:hover:bg-lime-700 focus:outline-none dark:focus:ring-lime-700">Free trial for 30 days</a> -->
+            </div>
+            <!-- Gallery -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img5.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img6.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img2.png" alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img3.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="./images/img4.jpeg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- End block -->
+    <!-- Galeri block -->
     <!-- <footer class="bg-lime-100 dark:bg-gray-800"> -->
-    <footer class="bg-lime-950">
+    <footer class="bg-lime-950 mt-24">
         <!-- <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10"> -->
         <div class="max-w-screen-xl px-4 py-6 pt-6 mx-auto">
             <!-- <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
