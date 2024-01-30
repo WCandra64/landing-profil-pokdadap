@@ -17,7 +17,7 @@ Alternatively you can also just directly copy this code into your own projects, 
 ## Built with Landwind Template, Tailwind CSS, and Flowbite
 
 This landing page was built using the following technologies:
-- 🔗 [Landwind - Tailwind CSS Landing Page Template](https://tailwindcss.com/](https://demo.themesberg.com/landwind/)
+- 🔗 [Landwind - Tailwind CSS Landing Page Template](https://demo.themesberg.com/landwind/)
 - 🔗 [Tailwind CSS](https://tailwindcss.com/)
 - 🔗 [Flowbite Library](https://flowbite.com/docs/getting-started/introduction/)
 - 🔗 [Flowbite Blocks](https://flowbite.com/blocks/)
